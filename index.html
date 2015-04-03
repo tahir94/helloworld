@@ -1,1 +1,25 @@
-this is a html file
+<!doctype html>
+
+<html lang="en-us">
+<head>
+<title>Credit managment system</title>
+    <link rel="stylesheet" href="main.css"/>
+</head>
+<body onload="olf();">
+    <h1>Credit Managment System</h1>
+    <button onclick="addcustomer();">Add customer</button>
+    <button onclick="credit();">Credit</button>
+    <button onclick="debit();">Debit</button>
+    <button onclick="del();">Delete a customer</button>
+    <button onclick="delall();">Delete all customers</button>
+
+        <table id="sample">
+            <thead>
+            <tr><th class="no">No.</th><th>Name</th><th>Limit</th><th>Current credit</th></tr>
+            </thead>
+            <tr><td class="no" id="no."></td><td id="namelist"></td><td id="limitlist"></td><td id="currentlist"></td></tr>
+        </table>
+
+    <script src="main.js"></script>
+</body>
+</html>
