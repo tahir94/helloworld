@@ -1,11 +1,15 @@
+<!DOCTYPE html>
 <html>
-<head>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/
-angular.js"></script>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+
+
+
 </head>
+<body ng-app ng-init="name='world'">
+<h1>hello {{name}}</h1>
 
-
-<body ng-app ng-init="name = 'World'">
-<h1>Hello {{name}}!</h1>
 </body>
 </html>
